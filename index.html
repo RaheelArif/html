@@ -1,17 +1,47 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title>form</title>
+    <title>Document</title>
+    <style>
+       h1{
+        color:  red ;
+        background-color: gainsboro;
+       }
+       form{
+        background-image: linear-gradient(red, yellow) ;
+       }
+       body{
+       background-color: antiquewhite;
+       }
+    </style>
 </head>
 
 <body>
     <h1>form chapter</h1>
+    <h2>form chapter</h2>
     <form>
-        <input placeholder="enter your name" type="text">
-        <input placeholder="enter your password" type="password">
-        <input type="checkbox"> <br>
-       <b>female</b> <input name="gender" type="radio">
-       <b>male</b> <input name="gender" type="radio">
+        <fieldset>
+            <legend>test form for students</legend>
+            <label> username: <input type="text"></label>
+            <input type="password"> <br>
+            <label>female: <input name="a" type="radio"> </label>
+            <input name="a" type="radio"> <br>
+            <input type="checkbox" checked>
+            <input type="checkbox">
+            <input type="">
+
+            <select>
+                <option>city</option>
+                <option>faisalbad</option>
+                <option>jaranwala</option>
+                <option>karachi</option>
+                <option>lahore</option>
+                <option>multan</option>
+                <option>sargodha</option>
+            </select>
+            <button>submit</button>
+        </fieldset>
     </form>
 </body>
 
