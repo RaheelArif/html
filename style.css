@@ -1,4 +1,7 @@
-p{
-  font-size: 40px;
-  font-weight: bold;
+h1{
+  background-color: blueviolet;
+}
+div{
+  display: flex;
+  justify-content: space-around;
 }
