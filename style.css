@@ -2,21 +2,23 @@ h1 {
     color: rgb(19, 156, 1);
     font-size: 30px;
     text-align: center;
+    text-shadow: 0px 0px 3px red;
 }
-p{
-    text-transform: uppercase;
+p:first-letter{
+    color: brown;
+    font-size: 30px;
+    text-shadow: 0px 0px 3px red;
 }
-span{
-    text-decoration: line-through;
-    color: aqua;
-    background-color: yellow;
-
+a{
+    color: cyan;
 }
-.web{
+a:visited{
+    color: black;
+}
+h1:hover{
     color: blue;
-    text-decoration: underline;
-    background-color: inherit;
+    background-color: brown;
+    text-align:left;
 }
-body{
-    background-image: linear-gradient(red, yellow);
-}
+
+
