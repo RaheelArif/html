@@ -1,10 +1,14 @@
-ul{
-    list-style-image: url("./li.png");
-   
+table{
+    background-color: antiquewhite;
+    width: 400px;
+    empty-cells: hide;
+    text-align: center;
+
 }
-li{
-    font-size: 40px;
+td{
+    padding: 10px;
+    
 }
-ol{
-    list-style-position: inside;
+td:hover{
+    background-color: blue;
 }
