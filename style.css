@@ -1,14 +1,8 @@
-table{
-    background-color: antiquewhite;
-    width: 400px;
-    empty-cells: hide;
-    text-align: center;
-
-}
-td{
-    padding: 10px;
-    
-}
-td:hover{
-    background-color: blue;
+.abc{
+  background-color: blanchedalmond;
+  padding: 20px;
+  border: 2px solid green;
+  border-radius: 10px;
+  margin: 10px 0px 0px 10px;
+  cursor: move;
 }
