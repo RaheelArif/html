@@ -1,8 +1,8 @@
-.abc{
-  background-color: blanchedalmond;
-  padding: 20px;
-  border: 2px solid green;
-  border-radius: 10px;
-  margin: 10px 0px 0px 10px;
-  cursor: move;
+.my-c{
+    background-color: aquamarine;
+    height: 500px;
+}
+.box{
+    border: 2px solid black
+
 }
