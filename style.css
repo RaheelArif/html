@@ -1,43 +1,12 @@
-body{
-  margin: 0px;
-  padding: 0px;
+p:nth-child(4){
+  background-color: blanchedalmond;
 }
-.container{
-  display: flex;
-  
+
+p:only-of-type{
+ background-color: blue;
 }
-.header{
-  display: flex;
+
+
+input:read-only{
   background-color: antiquewhite;
-  width: 100%;
-  height: 50px;
-  padding: 10px;
-  justify-content: space-between;
-  position: sticky;
-  top: 0px;
-}
-h1{
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
-select{
-  width: 200px;
-  border: 2px solid balck;
-  margin-left: 20px;
-}
-input{
-  width: 200px;
-  margin-left: 20px;
-}
-.header-left{
-  display: flex;
-}
-.header-right{
-  display: flex;
-  width: 200px;
-  justify-content: space-around;  
-}
-.abc{
-  position: sticky;
-  top: 10px;
-  background-color: aqua;
 }
