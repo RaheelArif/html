@@ -1,11 +1,11 @@
-var fee = 2000 ;
-alert(fee + 0 + 1000 - 50 + 50);
+var a = 5 ;
+var b = 2 ;
+var c = a % b;
 
 
 
 
-// fee = fee + 0;
-// fee = fee + 1000;
-// alert(fee);
-// fee = fee - 50;
-// alert(fee);
+alert(c);
+
+
+
