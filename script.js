@@ -1,5 +1,8 @@
-var num1 =  prompt("enter first number" , 2);
-var num2 = prompt("enter second number" , 2);
-var sum =  Number(num1) + Number(num2);
 
-alert( "num1 + num2 = "  + sum );
+var sum = prompt(" 2 + 2 = ?");
+
+if(sum == 4){
+   alert("correct answer")
+}else{
+   alert("incorrect")
+}
