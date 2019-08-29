@@ -1,11 +1,24 @@
-var student1 = "ali";
-var student2 = "ali2";
-var student3 = "ali3";
-var student4 = "ali4";
-var student5 = "ali5";
 
-var student = ["ali" , "ali2" , student3 , "ali4" , "ali5"]
-student.push("ali6" )
-student.pop()
+var number = prompt("enter a number for table");
+for(var a = 1; a <= 10; a++){
+    alert(a * number)
+}
 
-alert(student[5])
+
+
+
+
+
+
+// var student = ["ali" , "ali2" ,"ali3", "ali4" , "ali5"]
+
+
+
+
+
+// for(var a = 0; a <= 4; ++a){
+    
+//     alert(student[a])
+// }
+
+
