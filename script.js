@@ -1,10 +1,63 @@
-var students = ["ali1" , "ali2", "ali3" ,"ali4" , "ali5", "ali6", "ali7" , "ali8", "ali9", "ali10"];
-students.splice(4 , 0, "ali4.1", "ali4.2")
-alert(students);
-// var newArray = students.splice(9, 1)
-// alert(newArray )
+
+var a = "ali";
+// var b = a.indexOf(3)
+var b = a.charAt(a.length - 1)
+alert(b)
 
 
-// var firstFiveStudents = students.slice(3, 5)
-// students.unshift( "ali-1", "ali0")
-// students.shift();
+
+
+
+
+
+
+
+// var a = "ABCD";
+
+// alert(a.toLowerCase())
+// // alert(a.toUpperCase());
+
+
+
+
+
+
+
+
+
+// for(a = 0; a < 10 ; a++){
+//     for(b = 0 ; b < 10; b++){
+//     console.log(a + "" + b)
+//     }
+// }
+
+
+
+
+
+
+
+
+
+// var a  = [1, 2, 3, 4, 5, 6, 8, 9];
+// alert(a.length)
+// var found = false;
+ 
+// var number = Number(prompt("enter a number"));
+// for(b = 0 ; b <= a.length; b++){
+//     if(number === a[b]){
+//         found = true;
+//         break;
+//     }
+// }
+
+
+
+
+
+
+// if(found === true){
+//     alert("number found")
+// }else{
+//     alert("number not found")
+// }
