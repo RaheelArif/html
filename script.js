@@ -1,63 +1,43 @@
 
-var a = "ali";
-// var b = a.indexOf(3)
-var b = a.charAt(a.length - 1)
-alert(b)
+var date   =  new Date()
+var day = date.getDay();
+var days = ["sun" , "mon" , ""]
+alert(days[day])
 
 
 
 
 
+// var a  = 1.5555;
+// var a = a.toFixed(2);
+// var a = a.toString()
+// var c = a.slice(a.length - 1)
 
-
-
-
-// var a = "ABCD";
-
-// alert(a.toLowerCase())
-// // alert(a.toUpperCase());
-
-
-
-
-
-
-
-
-
-// for(a = 0; a < 10 ; a++){
-//     for(b = 0 ; b < 10; b++){
-//     console.log(a + "" + b)
-//     }
+// if(c === "6" ){
+//     a = a.slice(0 , a.length - 1) + "5"
 // }
+// alert(a)
+
+
+
+// var newNumber = b.toFixed(2)
+// alert(newNumber)
 
 
 
 
 
+// var number = Math.random();
+// var newNumber = number * 6;
+// var dice = Math.floor(newNumber) + 1;
+
+// alert(dice)
 
 
 
 
-// var a  = [1, 2, 3, 4, 5, 6, 8, 9];
-// alert(a.length)
-// var found = false;
- 
-// var number = Number(prompt("enter a number"));
-// for(b = 0 ; b <= a.length; b++){
-//     if(number === a[b]){
-//         found = true;
-//         break;
-//     }
-// }
-
-
-
-
-
-
-// if(found === true){
-//     alert("number found")
-// }else{
-//     alert("number not found")
-// }
+// var a = 9.999991909090;
+// var b = Math.round(a);
+// var c = Math.ceil(a);
+// var d = Math.floor(a);
+// alert(d);
