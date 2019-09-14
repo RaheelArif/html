@@ -1,43 +1,26 @@
 
-var date   =  new Date()
-var day = date.getDay();
-var days = ["sun" , "mon" , ""]
-alert(days[day])
+ function abc(a , b){
+     var answer = a + b;
+     return answer;
+    }
+   var answer2 = abc(2 , 3);
+    alert("your answer is = " +  answer2);
+//     var sum = abc(2 , 3);
 
-
-
-
-
-// var a  = 1.5555;
-// var a = a.toFixed(2);
-// var a = a.toString()
-// var c = a.slice(a.length - 1)
-
-// if(c === "6" ){
-//     a = a.slice(0 , a.length - 1) + "5"
+// for (let index = 1; index < 10; index++) {
+//     console.log(sum * index)
+    
 // }
-// alert(a)
 
 
 
-// var newNumber = b.toFixed(2)
-// alert(newNumber)
+// var date = new Date();
+// date.setDate(20)
+// alert(date);
 
-
-
-
-
-// var number = Math.random();
-// var newNumber = number * 6;
-// var dice = Math.floor(newNumber) + 1;
-
-// alert(dice)
-
-
-
-
-// var a = 9.999991909090;
-// var b = Math.round(a);
-// var c = Math.ceil(a);
-// var d = Math.floor(a);
-// alert(d);
+// var date = new Date();
+// var myDate = date.getTime()
+// alert(myDate);
+// var doomsday = new Date("June 30, 2022");
+// var nextDate = doomsday.getTime()
+// alert(nextDate);
