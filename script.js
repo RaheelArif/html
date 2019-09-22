@@ -1,35 +1,31 @@
-
-function changeColor() {
-
-    var number = Math.random() * 5 + 1;
-    number = Math.floor(number);
-    switch (number) {
-        case 1:
-            document.getElementById("bg").className = "red"
-            break;
-        case 2:
-            document.getElementById("bg").className = "green"
-            break;
-        case 3:
-            document.getElementById("bg").className = "blue"
-            break;
-        case 4:
-            document.getElementById("bg").className = "yellow"
-            break;
-            
-            
-            default:
-            document.getElementById("bg").className = "brown"
-
-            break;
-    }
-    
-
-    var result = document.getElementById("text").value;
-
-    document.getElementById("result").innerHTML = result;
-    document.getElementById("text").value = "";
+function Student(rollNumber , Name , City , marks){
+     this.rollNumber = rollNumber;
+     this.name = Name;
+     this.city = City;
+     this.marks = marks;
+     this.sum = function abc(a , b){
+          alert(a + b)
+     }
 }
+
+var student1 = new Student(1 , "ali" , "jrw", 99 ,  );
+var student2 = new Student(2 , "ali2" , "jrw2", 00 );
+student1.sum(2 , 4);
+student2.sum(4 , 5)
+
+
+
+
+// var  bill = {
+//     sugar : 100,
+//     oil: 150,
+//     lays: 50,
+//     perfume: 499,
+//     sum : function total(){
+//         var total = bill.sugar + bill.oil + bill.lays + bill.perfume;
+//          alert(total);
+//     }
+// }
 
 
 
